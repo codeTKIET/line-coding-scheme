@@ -8,6 +8,9 @@
 *.gch
 *.pch
 
+# video
+.mp4
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
