@@ -65,6 +65,7 @@ void project::end()
   log<<"\n\nEND :                    "<<str<<"\n===================================================================\n";
   log.close();
   system("cd ..");
+  system("cls");
 }
 
 void project::cho()
