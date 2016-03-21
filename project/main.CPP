@@ -65,7 +65,6 @@ void project::end()
   log<<"\n\nEND :                    "<<str<<"\n===================================================================\n";
   log.close();
   system("cd ..");
-  system("cls");
 }
 
 void project::cho()
@@ -497,7 +496,7 @@ void about()
   outtextxy(170,110,"LINE CODING SCHEME");
   settextstyle(DEFAULT_FONT, HORIZ_DIR, 1);
   setcolor(3);
-  outtextxy(20,220,"GUIDENCE      :    Prof. C. V. KURI");
+  outtextxy(20,220,"GUIDENCE      :    Prof. C. A. KURI");
   outtextxy(20,250,"GROUP MEMBERS :    1) PANKAJ REDEKAR              2) DNYANESHWAR SHINDE");
   outtextxy(20,270,"                   3) ABHISHEK ZIRANGE            4) SUDARSHAN JADHAV");
   setcolor(1);
